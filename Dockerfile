@@ -30,6 +30,7 @@ apache2-foreground' > /usr/local/bin/docker-entrypoint.sh
 
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
-EXPOSE 8080
-
+# En fly el puerto expuesto es 8080
+EXPOSE 8080 
+# 7. Comando de inicio del contenedor definido en paso 6
 CMD ["/usr/local/bin/docker-entrypoint.sh"]
