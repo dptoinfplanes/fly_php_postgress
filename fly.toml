@@ -1,11 +1,10 @@
-# fly.toml app configuration file generated for fly-php-postgress on 2026-01-22T09:05:49Z
+# fly.toml app configuration file generated for app-polished-violet-9690 on 2026-01-22T11:27:13Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-
-app = 'fly-php-postgress'
-primary_region = 'ams'
+app = 'app-polished-violet-9690'
+primary_region = 'iad'
 
 [build]
 
